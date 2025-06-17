@@ -1,0 +1,161 @@
+.sidebar {
+  max-width: 260px;
+  min-width: 70px;
+  width: 260px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f4f9;
+  padding: 10px 5px;
+  transition: width 0.3s ease, padding 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  width: 70px;
+
+}
+
+
+
+
+
+
+.sidebar .menu {
+  height: 30px;
+  display: inline-flex;
+  cursor: pointer;
+  margin: 10px;
+
+
+}
+
+
+
+.sidebar .chats {
+  display: inline-flex;
+  max-width: 130px;
+  min-width: 50px;
+  height: 60px;
+  align-items: center;
+  margin: 20px 0px;
+  border-radius: 50px;
+  padding: 5px 10px;
+  background-color: #e6eaf1;
+  cursor: pointer;
+  justify-content: center;
+
+}
+
+.sidebar .chats .chat {
+  font-size: 15px;
+}
+
+.sidebar .chats:hover {
+  box-shadow: 1px 1px 1px black;
+}
+
+
+.recent {
+  display: inline-flex;
+  height: 450px;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.recent .recent-title {
+  width: fit-content;
+  ;
+  height: 30px;
+  font-style: bold;
+  font-weight: 400;
+  margin: 20px 20px;
+}
+
+.recent .recent-historylist {
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  align-items: start;
+  flex: 1;
+  gap:5px;
+
+
+}
+
+.recent .recent-historylist .recent-history {
+  max-width: 230px;
+  height:40px;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 230px;
+  color: #282828;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+
+
+}
+
+
+.recent .recent-historylist .recent-history:hover {
+  background-color: #e6eaf1;
+
+}
+
+
+.help {
+  gap: 5px;
+  display: inline-flex;
+  align-items: center;
+  max-width: 150px;
+  height: fit-content;
+  border-radius: 50px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+
+
+}
+
+
+.Activity {
+  gap: 5px;
+  display: inline-flex;
+  align-items: center;
+  max-width: 150px;
+  height: fit-content;
+  border-radius: 50px;
+  margin: 5px 0px;
+  cursor: pointer;
+  padding: 5px 10px;
+
+}
+
+.setting {
+  gap: 5px;
+  display: inline-flex;
+  align-items: center;
+  max-width: 150px;
+  height: fit-content;
+  border-radius: 50px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+
+.sidebar .control-btn:hover {
+  background-color: #e6eaf1;
+}
+
+@media(max-width:500px){
+  .sidebar{
+     display: none;
+  }
+}
