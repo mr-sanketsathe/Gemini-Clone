@@ -5,7 +5,7 @@ import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import HistoryIcon from '@mui/icons-material/History';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import './Sidebar.css'
+import '/src/components/sidebar/Sidebar.css';
 import { useContext, useState } from 'react';
 import {Context} from  '../../context/Context'
 export default function Sidebar() {
