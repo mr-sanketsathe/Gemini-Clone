@@ -6,7 +6,7 @@ import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
-import './main.css';
+import './Main.css';
 import { useContext, useState } from 'react';
 import {Context} from '../../context/Context'
 export default function Main() {
