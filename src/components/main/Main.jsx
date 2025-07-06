@@ -25,7 +25,7 @@ export default function Main() {
             <div className="main-container">
                 {!showResult?<>
                 <div className="greet">
-                    <span className='greet-title'>Hello Sanket,</span><br />
+                    <span className='greet-title'>Hello User,</span><br />
                     <p>How i can  help you today ?</p>
                 </div>
                 <div className="main-infobox">
